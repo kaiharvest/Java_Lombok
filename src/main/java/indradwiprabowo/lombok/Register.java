@@ -1,8 +1,10 @@
 package indradwiprabowo.lombok;
 
 import lombok.Value;
+import lombok.With;
 
 @Value
+@With
 public class Register {
 
     private String username;
